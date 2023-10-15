@@ -1,0 +1,35 @@
+ul{
+    list-style: none;
+}
+
+
+nav {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(248, 241, 241);
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+}
+
+nav ul li a:hover{
+
+    background-color: rgba(255, 255, 255, 0.26);
+
+}
+
+
